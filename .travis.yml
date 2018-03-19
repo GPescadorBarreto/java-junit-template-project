@@ -9,6 +9,7 @@ jdk:
   - openjdk7
   - openjdk6
 
+script: mvn test
 after_success:
-  - mvn coveralls:report
+  - mvn clean test jacoco:report coveralls:report
 

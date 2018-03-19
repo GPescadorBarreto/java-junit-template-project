@@ -5,5 +5,3 @@
 *.ear
 .project
 .settings
-/bin/
-/target/
